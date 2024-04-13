@@ -122,6 +122,7 @@ int main(int argc, char *argv[])
     fclose(fptr);
     free(adapters);
     WSACleanup();
+    printf("Programa finalizado, pressione qualquer tecla para sair...");
     getchar();    
     return 0;
 }
