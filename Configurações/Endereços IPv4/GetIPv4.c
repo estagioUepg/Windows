@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
 //LÓGICA/CÓIGO PRINCIPAL ------------------------------------------------------------
     //Abre arquivo e verifica
     FILE* fptr;
-    fptr = fopen("filet.txt", "a");
+    fptr = fopen("IPs.txt", "a");
     if (fptr == NULL) {
         printf("Impossível abrir o arquivo "
                "Saindo...");
