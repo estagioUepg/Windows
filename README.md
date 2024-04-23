@@ -1,20 +1,20 @@
 # Windows
 
-Configurações:
+## Configurações:
 
 -WallPaper
 
 -IPv4 -> IP e DNS fixos
 
 
-OCS:
+## OCS:
 
 -Instalação
 
 -Configurações->Intervalos
 
 
-PSExec:
+## PSExec:
 
 -Execução Remota
 
