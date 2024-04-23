@@ -18,4 +18,4 @@ PSExec:
 
 -Execução Remota
 
--Confiurações
+-Configurações
