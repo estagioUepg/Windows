@@ -41,7 +41,7 @@ while (fgets(buffip, sizeof(buffip), fptr) != NULL)
 	token = strtok(NULL, ": ");
 	snprintf(buffTo, sizeof(buffTo), token);
 	remove_spaces(buffTo);
-	snprintf(buffer, sizeof(buffer), "start cmd.exe /c psexec -h \\\\%s -c \"C:\\users\\deinfo\\ccl.bat\" -u administrador -p deinfo", buffTo);
+	snprintf(buffer, sizeof(buffer), "start cmd.exe /c psexec -h \\\\%s -c \"C:\\users\\deinfo\\ccl.bat\" -u <usuario> -p <senha>", buffTo);
 	//puts(buffer);
 	system(buffer);
 }
