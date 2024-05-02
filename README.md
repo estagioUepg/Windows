@@ -19,3 +19,5 @@
 -Execução Remota
 
 -Configurações
+
+-CCleaner
